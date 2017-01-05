@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    tools:context="com.example.rushabh.quizapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFF"
+        >
+        //android:background="#FFFFFF"
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:divider="@android:color/transparent"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:text="• What is your biological age ?"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#005e9c" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            <RadioButton
+                android:text="less than 25 years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#ec6907"
+                android:textColor="#000000"
+                />
+
+            <RadioButton
+                android:text="Between 25 and 60 Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton2"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#757575"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:text=">60 Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton3"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#757575"
+                android:textColor="#000000"/>
+
+            </RadioGroup>
+            <TextView
+                android:text="• ECOG performance status ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textColor="#005e9c"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="ECOG score >3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton4"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#ec6907"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:text="ECOG Score = 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton5"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#757575"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:text="ECOG 0 or 1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton6"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#757575"
+                android:textColor="#000000"/>
+
+            </RadioGroup>
+            <TextView
+                android:text="• Creatinine clearance (CCR)?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="#005e9c"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="less than 50 ml/min"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton7"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#ec6907"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:text="50-60 ml/min"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton8"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#757575"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:text="greater than 60 ml/min"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton9"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#757575"
+                android:textColor="#000000"/>
+
+            </RadioGroup>
+            <TextView
+                android:text="• Medical histroy for nephrotoxic drugs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="#005e9c"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Medical history "
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton10"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#ec6907"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:text="No Medical history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton11"
+                android:onClick="onRadioButtonClicked"
+                android:buttonTint="#757575"
+                android:textColor="#000000"/>
+
+                <RadioButton
+                    android:text="Neither of them"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton12"
+                    android:layout_weight="1"
+                    android:onClick="onRadioButtonClicked"
+                    android:buttonTint="#757575"
+                    android:textColor="#000000"/>
+
+            </RadioGroup>
+            <Button
+                android:text="SUBMIT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:onClick="nextPage"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca154fade951f0d5dbe3e485fc81858447c568ae">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_370e55a74504591afa1646c08efd63d72dabc958\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_601bbde3915f1d9c518ac4f82505e99d3efb2985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_fb21cc5b8a8caffd6962bf540043959f2e304ed0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_18f875d3676ddc455bef2bf6b6bc26bb57886bd5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b83bedb06e7dfca000749b25cfe7abfca5beb726">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_54171b40e8f5afd45886fcac0cce76727e9abc3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\libs\mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-1-6_cb381f4c637c21b06e2613a3fd7c901b2508ef14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_cd50fae2ce74ec1884638b35cf74ce5c263e7272\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_f29fb7f224c86d2a2555c7ac41571289ab05c551\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_176cf0d0c45a16bbd57f1a26f4de6d0f9666041d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_e1fb1d1b9354e2fa203776eb648e4f5933510c16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_b477e8ec617536b56b4ce63e3b91a929d0beb5ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_16c7cb6f620238e7e529551f83a4627170206a9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\RUSHABH\AndroidStudioProjects\QuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_073a9864f7108bb51d7aa69296ea9a6065b57b2e\classes.dex" />
+    </item>
+
+</items>
