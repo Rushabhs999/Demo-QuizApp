@@ -29,44 +29,49 @@ public class resultActivity extends AppCompatActivity {
 
     private static String TAG="resultActivity";
 
-    //Intent intent = getIntent().getExtras();
-    //private int op1;
-     /*float v1=intent.getIntExtra("Option 1",op1);
-    //float value1 = intent.getIntExtra("Option 1",op1);
-    private int op2;
-    float value2 = intent.getIntExtra("Option 2",op2);
-    private int op3;
-    float value3 = intent.getIntExtra("Option 3",op3);*/
-
-    //Intent intent= getIntent();
-    //public int value1=intent.getIntExtra("Option 1",op1);
-    //extras.getInt("Option 1",op1);
-
-
-    //private float[] yData = {value1,value2,value3};
-    //private int [] yData = {21, 2, 2};
-    private float[] yData = {21f, 2f, 2f};
-    private String[] xData = {"High Risk", "Contradiction", "Acceptable"};
-
+    public float[] yData = {21f, 2f, 2f};
+    //public float[] yData ;
+    public String[] xData = {"High Risk", "Contradiction", "Acceptable"};
+    public int value1=0;
+    public int value2=0;
+    public int value3=0;
     PieChart mChart;
      @Override
      protected void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_result);
 
+         Intent intent= getIntent();
+         value1=0;
+         value2=0;
+         value3=0;
+         value1=intent.getIntExtra("Option 1",1);
+         value2=intent.getIntExtra("Option 2",2);
+         value3=intent.getIntExtra("Option 3",3);
 
+         for(int i=0;i<yData.length;i++)
+         {
+             yData[0]=value1;
+             yData[1]=value2;
+             yData[2]=value3;
+         }
 
          Log.d(TAG,"onCreate:Startting to create pie chart");
+         Log.d(TAG, "value1  "+value1);
+         Log.d(TAG, "value2  "+value2);
+         Log.d(TAG, "value3  "+value3);
          Log.d(TAG, "X Data.length"+xData.length);
          Log.d(TAG, "Y Data.length"+yData.length);
          mChart = (PieChart)findViewById(R.id.chart1);
          mChart.setRotationEnabled(true);
-         mChart.setHoleRadius(25f);
+         mChart.setHoleRadius(50f);
          mChart.setCenterText("Results");
          mChart.setCenterTextColor(Color.rgb(0,94,156));
          mChart.setCenterTextSize(10);
          mChart.setTransparentCircleAlpha(5);
          //mChart.setDrawEntryLabels(true);
+
+
          addDataSet();
          mChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
              @Override

@@ -3,6 +3,7 @@ package com.example.rushabh.quizapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -10,7 +11,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static String TAG="MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,10 +95,16 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Toast.makeText(this,op1+" "+op2+" "+op3,Toast.LENGTH_SHORT).show();
+        Log.d(TAG,"Op1 "+op1+"Op2 "+op2+"Op3 "+op3);
         Intent nextPage=new Intent(MainActivity.this,resultActivity.class);
+        //Bundle extras = new Bundle();
+        //extras.putString("Option 1",R.id.radioButton);
+        //nextPage.putExtras(extras);
         nextPage.putExtra("Option 1",op1);
         nextPage.putExtra("Option 2",op2);
         nextPage.putExtra("Option 3",op3);
+        //nextPage.putExtra("Option 2",op2);
+        //nextPage.putExtra("Option 3",op3);
         startActivity(nextPage);
         op1=0;
         op2=0;
